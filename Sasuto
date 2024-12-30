@@ -1,0 +1,6 @@
+local UniverseID = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://apis.roblox.com/universes/v1/places/"..game.PlaceId.."/universe")).universeId
+if game.PlaceId == 14069216114 or game.PlaceId == 994732206 then
+    if getgenv().betabss then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sasuto2443/Sasuto2134/refs/heads/main/sasuto"))()
+    end
+end
